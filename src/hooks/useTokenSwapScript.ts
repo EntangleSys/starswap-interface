@@ -6,7 +6,7 @@ import { TransactionPayloadVariantScriptFunction } from '@starcoin/starcoin/dist
 import { useTransactionExpirationSecs } from './useTransactionDeadline'
 
 // const PREFIX = '0xbd7e8be8fae9f60f2f5136433e36a091::TokenSwapScripts::'
-const PREFIX = '0x3db7a2da7444995338a2413b151ee437::TokenSwapScripts::'
+const PREFIX = '0x26613b3723853d60c3abada52158c3da::TokenSwapScripts::'
 
 function serializeU128(value: string | number): string {
   const se = new bcs.BcsSerializer()

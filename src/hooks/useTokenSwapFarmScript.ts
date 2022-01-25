@@ -2,7 +2,7 @@ import useSWR from 'swr'
 import { useStarcoinProvider } from './useStarcoinProvider'
 
 // const PREFIX = '0xbd7e8be8fae9f60f2f5136433e36a091::TokenSwapRouter::'
-const PREFIX = '0x3db7a2da7444995338a2413b151ee437::TokenSwapFarmScript::'
+const PREFIX = '0x26613b3723853d60c3abada52158c3da::TokenSwapFarmScript::'
 
 /**
  * 查询当前签名者在某代币对下的流动性
